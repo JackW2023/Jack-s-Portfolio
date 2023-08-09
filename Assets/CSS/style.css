@@ -1,6 +1,8 @@
 #header {
     display: flex;
+    /* this align the item in the center so they are parallel and consistent to each other */
     align-items: center;
+    /* this justify the content space so they are evenly distributed */
     justify-content: space-between;
     background-color: grey;
 }
