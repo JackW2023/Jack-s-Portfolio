@@ -1,0 +1,15 @@
+navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+navigator ul a:hover {
+    color: white;
+    display: block;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+  }
