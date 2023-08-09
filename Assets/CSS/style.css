@@ -1,4 +1,12 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+}
 navigator ul {
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,7 +14,7 @@ navigator ul {
     background-color: black;
 }
 
-navigator ul a:hover {
+navigator ul a {
     color: white;
     display: block;
     text-align: left;
