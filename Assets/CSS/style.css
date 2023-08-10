@@ -76,3 +76,18 @@ navigator ul a {
   box-shadow: 10px 10px 5px black;
 
 }
+
+#pp-application {
+  display: flex;
+}
+
+#pp-application first_proj {
+  padding: 10px;
+  background-color: blue;
+}
+
+#pp-application img {
+  max-height: 300px;
+  max-width: 300px;
+  image-rendering: auto;
+}
