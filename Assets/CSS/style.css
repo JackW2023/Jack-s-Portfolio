@@ -79,15 +79,24 @@ navigator ul a {
 
 #pp-application {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-#pp-application first_proj {
-  padding: 10px;
-  background-color: blue;
+
+
+#pp-application first_proj img {
+  max-height: 400px;
+  max-width: 400px;
 }
 
-#pp-application img {
+#pp-application second_proj img{
   max-height: 300px;
   max-width: 300px;
-  image-rendering: auto;
+
+}
+
+#pp-application third_proj img, fourth_proj img, fifth_proj img {
+  max-height: 200px;
+  max-width: 200px;
 }
