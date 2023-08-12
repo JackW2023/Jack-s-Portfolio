@@ -40,3 +40,35 @@ nav li {
 nav ul a {
   color: white;
 }
+
+.about-me {
+  background-color: black;
+  color: white;
+  padding: 100px 0px;
+}
+
+.about-me h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+
+  text-shadow: 5px 5px 3px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.about-me p {
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  font-size: 20px;
+  box-shadow: 10px 10px 5px black;
+  background-color: black;
+}
+
+.about-me > div {
+  background-color: gray;
+  max-width: 600px;
+  margin:  auto;
+  padding: 50px;
+}
+
