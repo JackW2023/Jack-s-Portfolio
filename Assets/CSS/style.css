@@ -1,6 +1,6 @@
 header {
   background-color: grey;
-  padding: 10px 0px 10px 10px;
+  padding: 20px 15px 20px 10px;
   border-style: solid;
   border-width: 10px 0px;
   border-color: black;
@@ -16,18 +16,24 @@ h1 {
   text-shadow: 5px 5px 3px rgb(0, 0, 0);
 }
 
+h2 {
+  font-size: 40px;
+}
+
 nav {
-  padding: 10px;
+  /* padding: 10px; */
+  border: 1px solid white;
+  box-shadow: 5px 5px 5px;
 }
 
 nav ul {
   display: flex;
   font-size: 32px;
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .line {
-  border: 3px solid white;
+  border: 1px solid white;
   border-radius: 2px;
 }
 
@@ -39,6 +45,7 @@ nav li {
 
 nav ul a {
   color: white;
+  text-decoration: none;
 }
 
 .about-me {
@@ -72,3 +79,57 @@ nav ul a {
   padding: 50px;
 }
 
+.pp-application {
+
+  display: flex;
+}
+
+.pp-application h2 {
+  border-right: 3px solid black;
+  padding: 20px;
+}
+
+.pp-application > div {
+  padding: 20px;
+}
+
+.projects-grid {
+  margin: auto;
+}
+
+.card {
+  border: 1px solid black;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card a {
+  text-align: center;
+}
+
+.big-card {
+  margin: 0 auto 20px auto;
+  width: 600px;
+}
+
+.card h3 {
+  padding: 30px;
+  color: white;
+  background-color: rgb(19, 19, 20);;
+  text-align: center;
+  font-size: 16px;
+}
+
+.projects-row {
+  display: flex;
+  gap: 20px;
+  border: 2px solid lime;
+  align-items: stretch;
+}
