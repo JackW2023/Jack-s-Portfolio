@@ -1,78 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Assets/CSS/reset.css" />
-    <link rel="stylesheet" href="Assets/CSS/style.css" />
+    <link rel="stylesheet" href="./Assets/CSS/reset.css" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <!-- <link rel="stylesheet" href="Assets/CSS/test.css"> -->
     <title>Jack's Portfolio</title>
 </head>
 
 <body>
-    <header id="header">
-        <Topic>
-            <h1>Jack's Portfolio</h1>
-        </Topic>
-        <navigator id="nav">
+    <header>
+
+        <h1>Jack's Portfolio</h1>
+
+        <nav>
             <ul>
                 <li>
-                    <a href="#about_me">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
+                <div class="line"></div>
                 <li>
-                    <a href="#pp_application">Applications</a>
+                    <a href="#pp-application">Applications</a>
                 </li>
+                <div class="line"></div>
                 <li>
-                    <a href="#contact_info">Contact Information</a>
+                    <a href="#contact-info">Contact Information</a>
                 </li>
             </ul>
-        </navigator>
+        </nav>
 
     </header>
+    <section class="about-me" id="about-me">
+        <div>
+            <h2>About Me</h2>
+            <p>
+                My name is Jack, and I have been interested in the coding industries for a while. Getting into the
+                coding bootcamp was one the best choice I made in life. This page will allow me to showcase some of the
+                application that I had done during the course of my Bootcamp Experience.
+            </p>
+        </div>
+    </section>
 
-    <about_me class="about_me">
-        <h2>About Me</h2>
-        <p>
-            My name is Jack, and I have been interested in the coding industries for a while. Getting into the coding bootcamp
-            was one the best choice I made in life. This page will allow me to showcase some of the application that
-            I had done during the course of my Bootcamp Experience.
-        </p>
-    </about_me>
+    <section class="pp-application" id="pp-application">
+        <h2>Pas Pre</h2>
+        <div class="projects-grid">
+            <div class="card big-card">
+                <h3>Title</h3>
+                
+                <img src="Assets/images/1st-project-img.JPG" alt="Image of the Pre-Work">
+                <a>link here</a>
+            </div>
+            <div class="projects-row">
+                <div class="card">
+                    <h3>Title</h3>
+                    <img src="Assets/images/2nd-project-img.JPG" alt="Image of the Portfolio">
+                    <a>link here</a>
+                </div>
+                <div class="card">
+                    <h3>Title</h3>
+                    <img src="Assets/images/4th-project-img.JPG" alt="Image of the Portfolio">
+                    <a>link here</a>
+                </div>
+                <div class="card">
+                    <h3>Title</h3>
+                    <img src="Assets/images/3rd-project-img.jpg" alt="Image of the Placeholder">
+                    <a>link here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <application id="container">
+        <h2>Past Present Future Application</h2>
+        <section class="item">
+            <header>Pre Work</header>
+            <img src="Assets/images/1st-project-img.JPG" alt="Image of the Pre-Work">
+            <p>
+                Completed
+            </p>
+        </section>
+        <section class="item">
+            <header>Portfolio</header>
+            <img src="Assets/images/2nd-project-img.JPG" alt="Image of the Portfolio">
+            <p>
+                ongoing
+            </p>
+        </section>
+        <section class="item">
+            <header>3rd Applications</header>
+            <img src="Assets/images/3rd-project-img.jpg" alt="Image of the Placeholder">
+            <p>
+                TBA
+            </p>
+        </section>
+        <section class="item">
+            <header>4th Application</header>
+            <img src="Assets/images/4th-project-img.jpg" alt="Image of the Placeholder">
+            <p>
+                TBA
+            </p>
+        </section>
+    </application> -->
 
-    <pp_application id="pp-application">
-        <h2>Past Applications</h2>
-        <first_proj>
-            <img src="Assets/images/1st-project-img.JPG" alt="Image for the first project">
-            <h3>Pre-Work</h3>
-        </first_proj>
-        <second_proj>
-            <img src="Assets/images/2nd-project-img.JPG" alt="Image for the second project">
-            <h3>Portfolio</h3>
-        </second_proj>
-        <third_proj>
-            <img src="Assets/images/3rd-project-img.jpg" alt="Image for the third project">
-            <h3>Future project Holder</h3>
-        </third_proj>
-        <fourth_proj>
-            <img src="Assets/images/4th-project-img.jpg" alt="Image for the fourth project">
-            <h3>Future project Holder2</h3>
-        </fourth_proj>
-        <fifth_proj>
-            <img src="Assets/images/3rd-project-img.jpg" alt="Image for the fifth project">
-            <h3>Future project Holder3</h3>
-        </fifth_proj>
-    </pp_application>
-
-    <contact_info class="contact_info">
-        <h2>Contact Information</h2>
-        <ul>
-            <li>Name: Jack W</li>
-            <li>Email: daxon2012@gmail.com</li>
-            <li>Github: <a href="https://github.com/JackW2023">My Github</a></li>
-        </ul>
-    </contact_info>
-
-    <footer>
-
-    </footer>
 </body>
+
 </html>

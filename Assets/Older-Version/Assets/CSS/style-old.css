@@ -1,0 +1,115 @@
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 3px rgb(0, 0, 0);
+
+}
+
+#header {
+    display: flex;
+    /* this align the item in the center so they are parallel and consistent to each other */
+    align-items: center;
+    /* this justify the content space so they are evenly distributed */
+    justify-content: space-between;
+    background-color: grey;
+    padding: 10px 0px 10px 10px;
+    border-style: solid;
+    border-width: 10px 0px 10px 0px;
+    border-color: black;
+
+}
+
+navigator ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    padding: 10px 5px 10px 5px;
+
+}
+
+navigator ul a {
+    color: white;
+    display: block;
+    text-align: right;
+    text-decoration: none; 
+    font-size: 32px;
+    padding: 16px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+
+  }
+
+.about_me {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    padding: 50px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 350px;
+    border-bottom-width: 10px;
+    border-color: black;
+
+}
+
+.about_me h2 {
+  padding-bottom: 20px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 5px 5px 3px rgb(0, 0, 0);
+
+}
+
+.about_me p {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  font-size: 20px;
+  box-shadow: 10px 10px 5px black;
+
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background: rgb(19, 19, 20);
+  color: #fff;
+}
+
+#container {
+  display: flex;
+}
+
+.item {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  /* this is amount it take up for each element in this class tag */
+  /* if it's taken out the item will all be in columns */
+  width: 23%;
+}
+
+.item header {
+  padding: 30px;
+}
+
+.item p {
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+}
+
+
+.contact_info {
+  display: none;
+}
