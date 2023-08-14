@@ -130,7 +130,16 @@ nav ul a {
 .projects-row {
   display: flex;
   gap: 20px;
-  border: 2px solid lime;
+  /* how to set basic border property */
+  /* border: 2px solid lime; */
   align-items: stretch;
   flex-wrap: wrap;
+}
+
+.contact-info {
+  border-top: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 15px 50px 10px;
 }
