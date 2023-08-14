@@ -18,6 +18,8 @@ h1 {
 
 h2 {
   font-size: 40px;
+  color: white;
+  text-shadow: 5px 5px 3px rgb(0, 0, 0);
 }
 
 nav {
@@ -87,6 +89,7 @@ nav ul a {
 .pp-application h2 {
   border-right: 3px solid black;
   padding: 20px;
+  background-color: grey;
 }
 
 .pp-application > div {
@@ -142,4 +145,17 @@ nav ul a {
   flex-direction: row;
   justify-content: space-between;
   padding: 50px 15px 50px 10px;
+  background-color: grey;
+}
+
+.contact-info > ul {
+  border: 1px solid white;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+  background-color: black;
+  padding: 10px;
+}
+
+.contact-info a:visited {
+  color: white;
 }
