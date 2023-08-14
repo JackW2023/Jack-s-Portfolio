@@ -94,6 +94,9 @@ nav ul a {
 
 .pp-application > div {
   padding: 20px;
+  background-image: url("../images/Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .projects-grid {
