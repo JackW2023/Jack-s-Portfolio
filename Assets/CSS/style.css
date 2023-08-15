@@ -85,6 +85,11 @@ nav ul a {
   padding: 50px;
 }
 
+.about-me img {
+  position: relative;
+  left: 170px;
+}
+
 .pp-application {
 
   display: flex;
@@ -124,7 +129,7 @@ nav ul a {
 .card a {
   text-align: center;
   text-decoration: none;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .big-card {
