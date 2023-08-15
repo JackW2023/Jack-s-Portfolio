@@ -88,6 +88,7 @@ nav ul a {
 .about-me img {
   position: relative;
   left: 170px;
+  width: 264px;
 }
 
 .pp-application {
@@ -147,6 +148,7 @@ nav ul a {
 
 .projects-row {
   display: flex;
+  /* the gap feature separate the items by adding px in between the item*/
   gap: 20px;
   /* how to set basic border property */
   /* border: 2px solid lime; */
