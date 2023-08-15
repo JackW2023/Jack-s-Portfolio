@@ -1,3 +1,7 @@
+html {
+  width: fit-content;
+}
+
 header {
   background-color: grey;
   padding: 20px 15px 20px 10px;
@@ -164,4 +168,22 @@ nav ul a {
 
 .contact-info a:visited {
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .big-card {
+    margin: 0 auto 20px auto;
+    width: 490px;
+  }
+
+  .projects-row {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .pp-application > div {
+      padding: 95px;
+  }
+
 }
