@@ -25,9 +25,20 @@ Increase the potential job opportunities, and better understanding the functions
 
 
 ## Credits
+
+### Guidance
+- Instructor Emmanuel
+- Tutor Jude Clark
+- TA David
+
 ### Images
 - https://www.pixelstalk.net/rain-backgrounds-hd-high-resolution/
 - https://wallpapersafari.com/w/LQqfap
 - https://www.pexels.com/photo/gray-scale-photo-of-body-of-water-276374/s
 - https://www.freepik.com/free-vector/white-abstract-background-theme_12188699.htm
 - https://getavataaars.com/?eyebrowType=DefaultNatural&topType=ShortHairShortRound
+
+
+## Project Display
+
+![Alt "Screenshots"](Assets/images/2nd-project-img.JPG);
